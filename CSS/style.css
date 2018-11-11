@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans');
+
+html, body{
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: #eee;
+    padding-bottom: 0;
+}
+
+nav{
+    background-color: rgba(0, 37, 154, 0.8);
+    opacity: .93;
+}
+header{
+    margin-top: 0vh;
+}
+
+
+
+.icones{
+    height: 5vh;
+}
+
+.linksNav{
+    font-size: 1.5rem !important;
+    font-weight: 400;
+}
+
+.tabelaAdm{
+    margin-top: 20%;
+}
+.dadosTabela{
+    font-size: 1.3rem;
+}
+.dist{
+    margin-top: 5vh;
+}
+.dis{
+    margin-top: 10vh;
+    margin-bottom:5vh;
+}
+.tan{
+    margin-left: 2vh;
+}
+.servicos{
+    background-color: #eee;
+}
+.produtos{
+    background-color: #ffffff;
+    margin-top:10vh;
+}
+
+.main-text {
+    position: absolute;
+    top: 25vh;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.cardServico{
+    display: none;
+    opacity: 0;
+}
+
+.imgCardServico:hover + .cardServico {
+    display: block !important;
+    animation: hoverGrow .5s 1 linear forwards;
+    animation: hoverOpacity .5s 1 linear forwards;
+}
+
+@keyframes hoverOpacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes hoverGrow {
+    from{
+        height: 0;
+    }
+    to{
+        height: 50%;
+    }
+}
+.home{
+    height: 100vh;
+}
+.imgHome{
+    height: 100vh;
+}
+
+.servicos{
+    height: 50vh;
+}
+
+.quemSomos {
+    background-image: url('/php/Img/img-sobre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#parceiros{
+    height: 70vh;
+}
+
+.sliderParceiros{
+    height: 50vh;
+    box-shadow: 14px 0px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.logoParceiros{
+    margin-top: 13vh;
+}
+.frame1{
+    display: block;
+}
+.frame2{
+    display: none;
+}
+.adm-serv{
+    height:70vh;
+}
+.user{
+    height: 70vh;
+}
+.card-deck{
+    margin-top: 10vh; 
+}
+.barra{
+    margin-left: 5vh;
+    height: 2vh;
+    margin-top: 10vh;
+    width: 50vh;
+    background-color : chartreuse;
+}
+.login{
+    margin-top: 20vh;
+    height: 70vh;
+    /* background-color: black; */
+    background-image: url('/php/Img/img-login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cardlogin{
+    margin-top: 20vh;
+}
